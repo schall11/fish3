@@ -18,8 +18,8 @@
       <file leaf-file-name="mapControl.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/mapControl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="282" column="17" lean-forward="false" selection-start-line="280" selection-start-column="3" selection-end-line="282" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="271" column="33" lean-forward="true" selection-start-line="271" selection-start-column="33" selection-end-line="271" selection-end-column="33" />
               <folding>
                 <marker date="1490823426410" expanded="true" signature="11785:11818" ph="..." />
                 <marker date="1490823426410" expanded="true" signature="13865:13947" ph="..." />
@@ -670,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mapControl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="282" column="17" lean-forward="false" selection-start-line="280" selection-start-column="3" selection-end-line="282" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="271" column="33" lean-forward="true" selection-start-line="271" selection-start-column="33" selection-end-line="271" selection-end-column="33" />
           <folding>
             <marker date="1490823426410" expanded="true" signature="11785:11818" ph="..." />
             <marker date="1490823426410" expanded="true" signature="13865:13947" ph="..." />
