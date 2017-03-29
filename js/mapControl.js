@@ -278,9 +278,9 @@ var barriers = L.esri.featureLayer({
 var antennas= L.esri.featureLayer({
   url: '//services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/MigrationLegacyInitiative_WeberRiver_Background/FeatureServer/1'
 }).addTo(map);
-var historic_dist= L.esri.featureLayer({
-  url: '//services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/MigrationLegacyInitiative_WeberRiver_Background/FeatureServer/2'
-}).addTo(map);
+// var historic_dist= L.esri.featureLayer({
+//   url: '//services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/MigrationLegacyInitiative_WeberRiver_Background/FeatureServer/2'
+// }).addTo(map);
 var huc10 = L.esri.featureLayer({
   url: '//services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/MigrationLegacyInitiative_WeberRiver_Background/FeatureServer/3'
 }).addTo(map);
@@ -389,7 +389,7 @@ var groupedOverlays = {
     "Reference Layers": {
     "Barriers": barriers,
     "Antenna Locations": antennas,
-        "Historic Distributions": historic_dist,
+        // "Historic Distributions": historic_dist,
         "HUC 10": huc10
 }};
 var baseLayers = getCommonBaseLayers(map); // see baselayers.js
