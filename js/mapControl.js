@@ -294,8 +294,8 @@ var picIcon1_second = L.icon({
     iconSize:     [400, 300]
 });
 var picIcon2 = L.icon({
-    iconUrl: 'https://preview.ibb.co/ijPo8v/Dalton_Creek.jpg',
-    iconSize:     [400, 300]
+    iconUrl: 'https://preview.ibb.co/eOihka/Jacobs_Creek_upper_barrier.jpg',
+    iconSize:     [360, 590]
 });
 var picIcon3 = L.icon({
     iconUrl: 'https://preview.ibb.co/hLFBTv/Strawberry_culvert_barrier_with_fish_passage.jpg',
