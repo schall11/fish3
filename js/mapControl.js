@@ -21,7 +21,7 @@ map.timeDimension = timeDimension;
 // otherwise you have to set the 'timeDimension' option on all layers.
 
 var player        = new L.TimeDimension.Player({
-    transitionTime: 25, 
+    transitionTime: 50,
     loop: false,
     startOver:true
 }, timeDimension);
