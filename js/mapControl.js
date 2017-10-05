@@ -1,15 +1,25 @@
 var startDate = new Date();
 startDate.setUTCHours(0, 0, 0, 0);
 
+// var map = L.map('map', {
+//     zoom: 16,
+//     fullscreenControl: true,
+//     zoomControl:true,
+//     scrollWheelZoom: false,
+//     touchZoom: false,
+//     dragging:true,
+//     doubleClickZoom: false,
+//     center: [41.13887977402061, -111.82219505310059]
+// });
 var map = L.map('map', {
-    zoom: 16,
+    zoom: 15,
     fullscreenControl: true,
-    zoomControl:false,
+    zoomControl:true,
     scrollWheelZoom: false,
     touchZoom: false,
-    dragging:false,
+    dragging:true,
     doubleClickZoom: false,
-    center: [41.13887977402061, -111.82219505310059]
+    center: [41.143452934367296, -111.82549953460695]
 });
 
 // start of TimeDimension manual instantiation
@@ -241,7 +251,7 @@ var gpxTimeLayerFish5 = L.timeDimension.layer.geoJson(gpxLayerFish5, {
 });
 var gpxLayer3 = omnivore.gpx('data/fish2.gpx', null, customLayer3);
 // var gpxLayer3_full = omnivore.gpx('data/Elk_WasatchCurrantCreek.gpx', null, customLayer3_full);
-var gpxLayer4 = omnivore.gpx('data/fish3.gpx', null, customLayer4);
+var gpxLayer4 = omnivore.gpx('data/fish3_new.gpx', null, customLayer4);
 // var group = new L.featureGroup([gpxLayer, gpxLayer2, gpxLayer3, gpxLayer4]);
 // var gpxLayer4_full = omnivore.gpx('data/deer3.gpx', null, customLayer4).on('ready', function() {
 //     // map.fitBounds(group.getBounds(), {
@@ -302,11 +312,16 @@ var picIcon3 = L.icon({
     iconSize:     [500, 400]
 });
 
-var pics = L.marker([41.14309743510025, -111.83427572250368], {icon: picIcon1_first}).addTo(map);
-var pics2 = L.marker([41.13968777607338, -111.80756092071533],{icon: picIcon2});
-var pics3 = L.marker([41.142176359852755,-111.82206630706789],{icon:picIcon3});
-var leader1 = L.polyline([[41.143113594199654,-111.83468341827394],[41.138018,-111.827273]],{color: 'black', weight:3}).addTo(map);
-var leader2 = L.polyline([[41.13968777607338, -111.80756092071533],[41.135158, -111.817404]],{color: 'black', weight:3});
+// var pics = L.marker([41.14309743510025, -111.83427572250368], {icon: picIcon1_first}).addTo(map);
+// var pics2 = L.marker([41.13968777607338, -111.80756092071533],{icon: picIcon2});
+// var pics3 = L.marker([41.142176359852755,-111.82206630706789],{icon:picIcon3});
+// var leader1 = L.polyline([[41.143113594199654,-111.83468341827394],[41.138018,-111.827273]],{color: 'black', weight:3}).addTo(map);
+// var leader2 = L.polyline([[41.13968777607338, -111.80756092071533],[41.135158, -111.817404]],{color: 'black', weight:3});
+var pics = L.marker([41.15080487348612, -111.85142040252687], {icon: picIcon1_first}).addTo(map);
+var pics2 = L.marker([41.142305634352105,-111.80086612701417],{icon: picIcon2});
+var pics3 = L.marker([41.142305634352105,-111.80086612701417],{icon:picIcon3});
+var leader1 = L.polyline([[41.15080487348612, -111.85142040252687],[41.138018,-111.827273]],{color: 'black', weight:3}).addTo(map);
+var leader2 = L.polyline([[41.142305634352105,-111.80086612701417],[41.135158, -111.817404]],{color: 'black', weight:3});
 
 var popup = L.popup({
     keepInView: true,
